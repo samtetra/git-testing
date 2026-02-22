@@ -4,7 +4,7 @@ pipeline {
     environment {
         APP_NAME = "git-testing-app"
         IMAGE_TAG = "${BUILD_NUMBER}"
-        DOCKERHUB_USER = "your-docker-username"
+        DOCKERHUB_USER = "mohamadalii"
     }
 
     stages {
